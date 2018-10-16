@@ -1,5 +1,5 @@
 #!/bin/sh
- cd ~/node-app
+ cd /home/ubuntu/node-app 
  git pull
  npm install — production
  pm2 restart all
